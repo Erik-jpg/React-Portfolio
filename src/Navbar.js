@@ -1,26 +1,24 @@
-import React, { Container } from 'react';
-import { Nav, Navbar, NavDropdown } from 'react-bootstrap';
+
+import { Nav, Navbar, NavDropdown, Container, Row } from 'react-bootstrap';
+import React, { useState } from 'react';
+import "./Navbar.css"
 
 const MyNavbar = () => {
   return (
-<Navbar bg="light" expand="lg">
-  <Container>
-    <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
-    <Navbar.Toggle aria-controls="basic-navbar-nav" />
-    <Navbar.Collapse id="basic-navbar-nav">
-      <Nav className="me-auto">
-        <Nav.Link href="#home">Home</Nav.Link>
-        <Nav.Link href="#link">Link</Nav.Link>
-        <NavDropdown title="Dropdown" id="basic-nav-dropdown">
-          <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-          <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
-          <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
+<Navbar className="container">
+  <Container fluid>
+    <Row xs="auto">
+    <Navbar.Brand href="#home">Home</Navbar.Brand>
+        <Nav.Link href="#Projects">Projects</Nav.Link>
+        <Nav.Link href="#Resume">Resume</Nav.Link>
+        <NavDropdown title="Contact Me" id="basic-nav-dropdown">
+          <NavDropdown.Item href="mailto:spologas@gmail.com/3.1">Email</NavDropdown.Item>
+          <NavDropdown.Item href="#action/3.2">LinkedIn</NavDropdown.Item>
+          <NavDropdown.Item href="#action/3.3">Twitter</NavDropdown.Item>
           <NavDropdown.Divider />
-          <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
         </NavDropdown>
-      </Nav>
-    </Navbar.Collapse>
-  </Container>
+        </Row>
+    </Container>
 </Navbar>
   );
 };

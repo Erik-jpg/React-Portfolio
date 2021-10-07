@@ -8,3 +8,17 @@
     margin-bottom: 2em;
     background-color:darkgreen;
 }
+
+.navbar {
+    display: block;
+    width: 100px;
+    height:20px;
+    
+    
+    }
+
+.Container {
+    background-color: black;
+    display: block;
+    flex: row;
+}
