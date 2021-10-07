@@ -1,6 +1,8 @@
 import React, { Container } from 'react';
 import { Nav, Navbar, NavDropdown } from 'react-bootstrap';
 
+const MyNavbar = () => {
+  return (
 <Navbar bg="light" expand="lg">
   <Container>
     <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
@@ -20,5 +22,7 @@ import { Nav, Navbar, NavDropdown } from 'react-bootstrap';
     </Navbar.Collapse>
   </Container>
 </Navbar>
+  );
+};
 
-export default Navbar;
+export default MyNavbar;
