@@ -1,26 +1,15 @@
-import React, { useState, useRef } from 'react';
-import TodoList from './TodoList'
-import uuidv4 from './uuidv4';
-function App() {
-  const [todos, setTodos] = useState([])
-  const todoNameRef = useRef()
+import { render } from '@testing-library/react';
+import React from 'react';
+import Title from './header';
+import Navbar from './Navbar';
+// import uuidv4 from './uuidv4';
 
-  function handleAddTodo(e) {
-    const name = todoNameRef.current.value
-    if (name === '') return
-    setTodos(prevTodos => {
-      return [... prevTodos, { id: uuidv4(), name: name, complete: false}]
-    })
-    todoNameRef.current.value = null
-  }
-  return (
-    <>
-    <TodoList todos = {todos} />
-    <input ref={todoNameRef} type="text" />
-    <button onCLick={handleAddTodo}>Add Todo</button>
-    <button> Clear Complete</button>
-    <button>0 left to do</button>
-    </>
+function App() {
+  render()
+  return(
+    <div className="Title">
+      <Navbar />
+    </div>
   )
 }
 
