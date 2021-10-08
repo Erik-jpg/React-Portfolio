@@ -1,5 +1,5 @@
 import React from 'react';
-import './Title.css';
+import './CSS/Title.css';
 import MyNavbar from './Navbar'
 
 function Title() {
@@ -7,9 +7,9 @@ function Title() {
         <>
         <div className="Title">
             <h1>Welcome to my React Portfolio!</h1>
-            
+            <MyNavbar />
         </div>
-        <MyNavbar />
+        
         </>
     )
 }

@@ -1,26 +1,21 @@
+import { Nav, Navbar, NavDropdown } from 'react-bootstrap';
+import "./CSS/Navbar.css"
 
-import { Nav, Navbar, NavDropdown, Container, Row } from 'react-bootstrap';
-import React, { useState } from 'react';
-import "./Navbar.css"
-
-const MyNavbar = () => {
+const MyNavbar = (props) => {
   return (
-<Navbar className="container">
-  <Container fluid>
-    <Row xs="auto">
-    <Navbar.Brand href="#home">Home</Navbar.Brand>
-        <Nav.Link href="#Projects">Projects</Nav.Link>
-        <Nav.Link href="#Resume">Resume</Nav.Link>
-        <NavDropdown title="Contact Me" id="basic-nav-dropdown">
-          <NavDropdown.Item href="mailto:spologas@gmail.com/3.1">Email</NavDropdown.Item>
-          <NavDropdown.Item href="#action/3.2">LinkedIn</NavDropdown.Item>
-          <NavDropdown.Item href="#action/3.3">Twitter</NavDropdown.Item>
-          <NavDropdown.Divider />
+    <div className="Row">
+      <Navbar bg="dark" variant="dark">
+        <Nav.Link Title="Bio" setSectionDisplay={props.setSectionDisplay}/>
+        <Nav.Link Title="Projects" setSectionDisplay={props.setSectionDisplay}/>
+        <Nav.Link Title="Resume" setSectionDisplay={props.setSectionDisplay}/>
+        <NavDropdown title="Contact Me" id="basic-nav-dropdown"> 
+        <NavDropdown.Item Title="Email" href="mailto:spologas@gmail.com" />
+        <NavDropdown.Item Title="LinkedIn" href="www.linkedin.com/in/erik-stone-33b2a661"/>
         </NavDropdown>
-        </Row>
-    </Container>
-</Navbar>
+      </Navbar>
+
+</div>
   );
-};
+}
 
 export default MyNavbar;

@@ -1,5 +1,5 @@
 import React from 'react';
-import './Footer.css';
+import './CSS/Footer.css';
 
 function Footer(props) {
     return (
@@ -14,3 +14,4 @@ function Footer(props) {
 
 export default Footer;
 // extends React.PureComponent
+// The Footer must contain text or icons that link to developer's Github, another social media, and LinkedIn profiles
