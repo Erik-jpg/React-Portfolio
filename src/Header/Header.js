@@ -1,6 +1,6 @@
 import React from 'react';
 import './CSS/Title.css';
-import MyNavbar from './Navbar'
+import MyNavbar from '../Navbar/Navbar'
 
 function Title() {
     return (

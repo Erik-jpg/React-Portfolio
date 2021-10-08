@@ -5,7 +5,7 @@ import Title from './Header';
 import Footer from './Footer';
 import Bio from './Bio';
 import Resume from './Resume';
-import Projects from './Projects';
+import Projects from './Projects/Projects';
 
 
 const App = () => {
