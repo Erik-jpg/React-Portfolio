@@ -1,6 +1,6 @@
 import React from 'react';
-import Images from './Images';
-import KlettersteigImg from './Images/Klettersteig';
+// import Images from './Images';
+import KlettersteigImg from './Images/KlettersteigLanding';
 
 const Klettersteig = () =>(
 <div className="ProjectKlettersteig"
@@ -9,7 +9,7 @@ style={{ margin: '2px', padding: '2px' }}>
         <div className="columns">
             <div className="columns">
                 <figure className="image">
-                    <img className="KlettersteigPic" src={Images.Klettersteig} alt="Klettersteig" />
+                    <img className="KlettersteigPic" src={KlettersteigImg} alt="Klettersteig"></img> 
                 </figure>
             </div>
             <div className="column">

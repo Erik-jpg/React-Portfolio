@@ -1,11 +1,19 @@
 
 import React from 'react';
 import { useState } from 'react';
-import Title from './Header';
-import Footer from './Footer';
-import Bio from './Bio';
+import Title from './Header/Header';
+import Footer from './Footer/Footer';
+import Bio from './Bio/Bio';
 import Resume from './Resume';
-import Projects from './Projects/Projects';
+
+import { 
+  Klettersteig,
+  KlettersteigImg,
+  weather,
+  weatherImg,
+  NoteTaker,
+  ScribbleImg,
+} from '../src/Projects/index';
 
 
 const App = () => {

@@ -1,11 +1,11 @@
 import React from "react";
-import Logo from "./CSS/Bio.css";
+import Logo from "./logo.css";
 
 
 function Bio() {
   return (
     <>
-    <img src={require('./CSS/Bio.css')} alt="MyFace2"/>
+    <img src={require('./img/logo.png')} alt="MyFace2"/>
       <img src={Logo} alt="MyFace" />
       <div className="Bio-Illumination">
         <p>

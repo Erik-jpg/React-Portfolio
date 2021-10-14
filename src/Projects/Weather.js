@@ -1,6 +1,6 @@
 import React from 'react';
-import Images from './Images';
-import weatherImg from './Images/weather';
+// import Images from './Images';
+import weatherImg from './Images/weatherImg';
 
 const Weather = () =>(
 <div className="ProjectWeather"
@@ -9,7 +9,7 @@ style={{ margin: '2px', padding: '2px' }}>
         <div className="columns">
             <div className="columns">
                 <figure className="image">
-                    <img className="weatherPic" src={Images.weather} alt="weatherApp" />
+                    <img className="weatherPic" src={weatherImg} alt="weatherApp" />
                 </figure>
             </div>
             <div className="column">

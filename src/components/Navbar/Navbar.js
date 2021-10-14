@@ -1,5 +1,5 @@
 import { Nav, Navbar, NavDropdown } from 'react-bootstrap';
-import "./CSS/Navbar.css"
+import "./Navbar.css"
 
 const MyNavbar = (props) => {
   return (

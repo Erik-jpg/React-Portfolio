@@ -1,6 +1,6 @@
 import React from 'react';
-import Images from './Images';
-import NoteTakerImg from './Images/NotesTaker';
+// import Images from './Images';
+import ScribbleImg from './Images/ScribbleImg';
 
 const NoteTaker = () =>(
 <div className="ProjectNoteTaker"
@@ -9,7 +9,7 @@ style={{ margin: '2px', padding: '2px' }}>
         <div className="columns">
             <div className="columns">
                 <figure className="image">
-                    <img className="NoteTakePic" src={Images.NoteTaker} alt="NoteTaker" />
+                    <img className="NoteTakePic" src={ScribbleImg} alt="NoteTaker" />
                 </figure>
             </div>
             <div className="column">
