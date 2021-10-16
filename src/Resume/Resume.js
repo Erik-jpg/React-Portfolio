@@ -1,0 +1,1 @@
+// The Resume section must have a downloadable resume and a list of developer's proficiencies.
