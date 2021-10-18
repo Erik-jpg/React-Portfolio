@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { useState } from 'react';
-import Title from './Header';
+import Navbar from './Header';
 import Footer from './Footer';
 import Bio from './Bio';
 // import Resume from './Resume';
@@ -21,7 +21,7 @@ const App = () => {
   
   return(
     <>
-    <Title setsectionDisplay={sectionDisplay} />
+    <Navbar setsectionDisplay={sectionDisplay} />
     {makeSectionDisplay(sectionDisplay)}
     <Footer />
       </>

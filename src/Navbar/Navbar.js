@@ -3,7 +3,7 @@ import "./Navbar.css"
 
 const MyNavbar = (props) => {
   return (
-    <div className="Row">
+    <div className="Navbar">
       <Navbar bg="dark" variant="dark">
         <Nav.Link Title="Bio" setSectionDisplay={props.setSectionDisplay}/>
         <Nav.Link Title="Projects" setSectionDisplay={props.setSectionDisplay}/>

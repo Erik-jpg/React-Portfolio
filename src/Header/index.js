@@ -1,11 +1,11 @@
 import React from 'react';
-import './Title.css';
-import MyNavbar from '../Navbar/Navbar'
+import './Navbar.css';
+import MyNavbar from './Navbar/MyNavbar';
 
-function Title() {
+function Navbar() {
     return (
         <>
-        <div className="Title">
+        <div className="Navbar">
             <h1>Welcome to my React Portfolio!</h1>
             <MyNavbar />
         </div>
@@ -15,4 +15,4 @@ function Title() {
 }
 
 
-export default Title;
+export default Navbar;
