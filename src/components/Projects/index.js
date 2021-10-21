@@ -1,18 +1,27 @@
 import React from 'react';
-import Klettersteig from './Klettersteig';
-import KlettersteigImg from './Images/KlettersteigLanding';
-import weather from './Weather';
-import weatherImg from './Images/weatherImg';
-import NoteTaker from './NoteTaker';
-import ScribbleImg from './Images/ScribbleImg';
+import Klettersteig from "./Klettersteig";
+import NoteTaker from "./NoteTaker";
+import Weather from "./Weather";
 
-
-
-export {
-    Klettersteig,
-    KlettersteigImg, 
-    weather,
-    weatherImg,
-    NoteTaker,
-    ScribbleImg
+const PastProjects = () => {
+  return (
+    <div id="show-projects">
+      <h3>These are links to projects that I did in the University of Oregon coding boot camp.
+        Please feel free to click the links and explore! Also if you would like to view the coding that was done, click on the link below.
+        Github link and you can view the code from there.
+      </h3>
+      <br />
+      <div id="project-Klettersteig">
+        <Klettersteig />
+      </div>
+      <div id="Note-Taker">
+      <NoteTaker />
+      </div>
+      <div id="weather-app">
+      <Weather />
+      </div>
+    </div>
+  );
 };
+
+export default PastProjects;
