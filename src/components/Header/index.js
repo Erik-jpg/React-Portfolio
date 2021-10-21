@@ -1,16 +1,15 @@
 import React, { useState } from 'react';
-import MyNavbar from './components/Navbar/MyNavbar';
-import './Title.css';
-import BioIllumination from './components/Bio/BioIllumination';
-import Projects from './components/Projects/PastProjects';
-import Communication from './components/Contact/communication';
+import MyNavbar from '../Navbar/Navbar';
+import Bio from '../bio/index';
+import Projects from '../Projects/index';
+import Communication from '../Contact/Contact';
 
 
 function Header(){
-let [page, setPage] = useState('BioIllumination');
+let [page, setPage] = useState('Bio');
 const compilePage = () => {
-    if (page === "BioIllumination") {
-        return <BioIllumination />
+    if (page === "Bio") {
+        return <Bio />
     }
         else if (page === "Projects") {
             return <Projects />

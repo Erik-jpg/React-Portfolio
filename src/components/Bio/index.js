@@ -1,7 +1,7 @@
 import React from "react";
-import "./Bio.css";
 
-function BioIllumination() {
+
+function Bio() {
   return (
     <>
       <img src='https://i.ibb.co/GWPPR8t/23668509-841127372723775-9055571650329706496-n.jpg' alt="MyFace2" />
@@ -35,7 +35,7 @@ function BioIllumination() {
   );
 }
 
-export default BioIllumination;
+export default Bio;
 
 // The About me title and section are the default.
 // The about me must contain a recent photo or avatar and a short bio.

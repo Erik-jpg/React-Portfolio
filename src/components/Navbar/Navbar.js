@@ -1,23 +1,24 @@
 import React from "react";
-import "./Navbar.css";
+import Button from 'react-bootstrap/Button';
+
 
 function MyNavbar({ page, setPage }) {
   return (
     <>
       <div className="">
         <h1>Welcome to my React Portfolio!</h1>
-        <button id="BioBtn" onClick={() => setPage("Bio")}>
+        <Button id="BioBtn" onClick={() => setPage("Bio")}>
           Bio
-        </button>
-        <button id="projectsBtn" onClick={() => setPage("Projects")}>
+        </Button>
+        <Button id="projectsBtn" onClick={() => setPage("Projects")}>
           Projects
-        </button>
-        <button id="ContactBtn" onClick={() => setPage("Contact")}>
+        </Button>
+        <Button id="ContactBtn" onClick={() => setPage("Contact")}>
           Contact
-        </button>
-        <button id="Resume" onClick={() => setPage("Resume")}>
+        </Button>
+        <Button id="Resume" onClick={() => setPage("Resume")}>
           Resume
-        </button>
+        </Button>
       </div>
     </>
   );
