@@ -1,11 +1,11 @@
 import React from "react";
 import "./Bio.css";
 
-function Bio() {
+function BioIllumination() {
   return (
     <>
-      <img src='https://clustrmaps.com/persons/i/Erik-Stone.jpg' alt="MyFace2" />
-      {/* //TODO: change url to the new image */}
+      <img src='https://i.ibb.co/GWPPR8t/23668509-841127372723775-9055571650329706496-n.jpg' alt="MyFace2" />
+      
       <img src='https://clustrmaps.com/persons/i/Erik-Stone.jpg' alt="MyFace2" />
 
       <div className="Bio-Illumination">
@@ -35,7 +35,7 @@ function Bio() {
   );
 }
 
-export default Bio;
+export default BioIllumination;
 
 // The About me title and section are the default.
 // The about me must contain a recent photo or avatar and a short bio.
