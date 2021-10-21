@@ -7,8 +7,9 @@ import { useForm, ValidationError } from "@formspree/react";
 
     function communication() {
     return (
-        [state, handleSubmit] = useForm("xeqvwlqd")
         <>
+        [state, handleSubmit] = useForm("xeqvwlqd")
+        
         <div id="contact">
     <h4>Social Media and Contact Form</h4>
     <br />
@@ -36,6 +37,7 @@ import { useForm, ValidationError } from "@formspree/react";
             field="message"
             errors={state.errors}
         />
+        
         <button type="submit" disabled={state.submitting}>
             Submit
         </button>
