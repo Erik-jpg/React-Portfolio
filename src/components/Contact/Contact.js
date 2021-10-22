@@ -7,8 +7,8 @@ import { useForm, ValidationError } from "@formspree/react";
 
     function communication() {
     return (
-        <>
-        [state, handleSubmit] = useForm("xeqvwlqd")
+        // <>
+        // [state, handleSubmit] = useForm("xeqvwlqd")
         
         <div id="contact">
     <h4>Social Media and Contact Form</h4>
