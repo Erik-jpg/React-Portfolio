@@ -1,20 +1,26 @@
-import { Nav, Navbar, NavDropdown } from 'react-bootstrap';
-import "./Navbar.css"
+import React from "react";
+import Button from 'react-bootstrap/Button';
 
-const MyNavbar = (props) => {
+
+function MyNavbar({ page, setPage }) {
   return (
-    <div className="Row">
-      <Navbar bg="dark" variant="dark">
-        <Nav.Link Title="Bio" setSectionDisplay={props.setSectionDisplay}/>
-        <Nav.Link Title="Projects" setSectionDisplay={props.setSectionDisplay}/>
-        <Nav.Link Title="Resume" setSectionDisplay={props.setSectionDisplay}/>
-        <NavDropdown title="Contact Me" id="basic-nav-dropdown"> 
-        <NavDropdown.Item Title="Email" href="mailto:spologas@gmail.com" />
-        <NavDropdown.Item Title="LinkedIn" href="www.linkedin.com/in/erik-stone-33b2a661"/>
-        </NavDropdown>
-      </Navbar>
-
-</div>
+    <>
+      <div className="">
+        <h1>Welcome to my React Portfolio!</h1>
+        <Button id="BioBtn" onClick={() => setPage("Bio")}>
+          Bio
+        </Button>
+        <Button id="projectsBtn" onClick={() => setPage("Projects")}>
+          Projects
+        </Button>
+        <Button id="ContactBtn" onClick={() => setPage("Contact")}>
+          Contact
+        </Button>
+        <Button id="Resume" onClick={() => setPage("Resume")}>
+          Resume
+        </Button>
+      </div>
+    </>
   );
 }
 

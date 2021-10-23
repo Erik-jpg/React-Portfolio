@@ -25,12 +25,3 @@ The Contact section must contain fields for entering Name, Email, and a message.
 The Resume section must have a downloadable resume and a list of developer's proficiencies.
 
 The Footer must contain text or icons that link to developer's Github, another social media, and LinkedIn profiles
-
-assets:
-cartoon headshot: ![26067317_1523321264431428_8488180756558905344_n](https://user-images.githubusercontent.com/81771873/137387815-98a00aed-4296-4d4b-bda3-ffabf313c307.jpg)
-
-resume.pdf: ![26067317_1523321264431428_8488180756558905344_n](https://user-images.githubusercontent.com/81771873/137387815-98a00aed-4296-4d4b-bda3-ffabf313c307.jpg)
-[Resume (PDF).pdf](https://github.com/Erik-jpg/erik-stone-react-portfolio/files/7349077/Resume.PDF.pdf)
-
-black & white ash st view:
-![26067317_1523321264431428_8488180756558905344_n](https://user-images.githubusercontent.com/81771873/137387815-98a00aed-4296-4d4b-bda3-ffabf313c307.jpg)
