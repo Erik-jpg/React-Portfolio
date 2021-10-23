@@ -1,12 +1,10 @@
 import React from "react";
-import Logo from "./logo.css";
+
 
 
 function Bio() {
   return (
     <>
-    <img src={require('./img/logo.png')} alt="MyFace2"/>
-      <img src={Logo} alt="MyFace" />
       <div className="Bio-Illumination">
         <p>
           This is my Bio, About me and photo of me... area. It's hard for me to
