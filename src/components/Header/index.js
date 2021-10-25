@@ -3,7 +3,7 @@ import MyNavbar from '../Navbar/Navbar';
 import Bio from '../Bio/Bio';
 import Projects from '../Projects/index';
 import Communication from '../Contact/Contact';
-
+import ResumeApp from '../Resume/index';
 
 function Header(){
 let [page, setPage] = useState('Bio');
@@ -16,6 +16,9 @@ const compilePage = () => {
     }
         else if (page === "Communication") {
             return <Communication />
+    }
+    else if (page === "Resume") {
+        return <ResumeApp />
     }
     
 };
