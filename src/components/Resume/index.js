@@ -1,24 +1,24 @@
 // The Resume section must have a downloadable resume and a list of developer's proficiencies.
-import React, { useState } from "react";
-import { Document, Page } from "react-pdf/dist/esm/entry.webpack"
+import React from "react";
+import { Document, Page } from "react-pdf";
 
-function ResumeApp() {
+export default function ResumeApp(props) {
+
     const [numPages, setNumPages] = useState(null);
-    const [pageNumber, setPageNumber] = useState(1);
+   
 
     function onDocumentLoadSuccess({ numPages }) {
-        setPageNumber(numPages);
+        setNumPages(numPages);
     }
+
+    const {pdf} = props;
 
     return ( 
         <div>
-            <Document
-            file="https://drive.google.com/file/d/1yPLEK35BKnUWy67JRonzp7ZBu5w1YCJK/view?usp=sharing"
-            onLoadSuccess={onDocumentLoadSuccess}
-            >
-                <Page pageNumber={pageNumber} />
-            </Document>
-            <p>Page {pageNumber} of {numPages}</p>
+            <Document file= "https://drive.google.com/file/d/1yPLEK35BKnUWy67JRonzp7ZBu5w1YCJK/view?usp=sharing" />
+               
+           
+           
         </div>
     );
 }
