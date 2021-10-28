@@ -1,18 +1,38 @@
-import React from 'react';
 
 
-function Footer(props) {
+
+function Footer() {
     return (
-        <footer>
-        <div className="Footer">
-            <h6>Thank you for taking the time to look around my portfolio. 
-                If you would like to contact me, please click the contact button!</h6>
-        </div>
-        </footer>
-    )
-}
 
-
-export default Footer;
-// extends React.PureComponent
-// The Footer must contain text or icons that link to developer's Github, another social media, and LinkedIn profiles
+        <ul>
+            <li>
+                <a
+                    href="mailto:spologas@gmail.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    E-Mail
+                </a>
+            </li>
+            <li>
+                <a
+                    href="https://github.com/Erik-jpg/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    Github
+                </a>
+            </li>
+            <li>
+                <a
+                    href="www.linkedin.com/in/erik-stone-33b2a661"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    LinkedIn
+                </a>
+            </li>
+        </ul>
+)
+    }
+    export default Footer;

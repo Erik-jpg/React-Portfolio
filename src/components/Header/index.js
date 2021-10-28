@@ -1,11 +1,10 @@
 import React, { useState } from 'react';
 import MyNavbar from '../Navbar/Navbar';
-
 import Bio from '../Bio/index';
-
 import Projects from '../Projects/index';
-import Communication from '../Contact/Contact';
-import Document from '../Resume/index';
+import App from '../Contact/Contact';
+import Resume from '../Resume/index';
+import Footer from '../Footer/index';
 
 function Header(){
 let [page, setPage] = useState('Bio');
@@ -17,10 +16,10 @@ const compilePage = () => {
             return <Projects />
     }
         else if (page === "Communication") {
-            return <Communication />
+            return <App />
     }
     else if (page === "Resume") {
-        return <Document />
+        return <Resume />
     }
     
 };

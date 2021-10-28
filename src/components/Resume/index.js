@@ -1,14 +1,24 @@
 // The Resume section must have a downloadable resume and a list of developer's proficiencies.
 import React from "react";
-import { Document } from "react-pdf";
-import resumePdf from './Resume(PDF).pdf';
-import resumeImg from './Screenshot(50.png)';
 
-<figure>
-    <a href={resumePdf}
-    download><img src={resumeImg} alt= 'ThisIsResume' /></a>
-</figure>
+import resumePdf from './Resume.pdf';
+import resumeImg from './ResumePicture.png';
 
-        // <Document file="https://drive.google.com/file/d/1yPLEK35BKnUWy67JRonzp7ZBu5w1YCJK/view?usp=sharing" />
-
-export default Document;
+const Resume = (props) => (
+    <div className="box" style={{ background: 'black' }}>
+        <div className="columns">
+            <div
+            className='column'
+            style={{ display: 'flex', justifyContent: 'center' }}>
+                <figure>
+                    <a href={resumePdf}
+                    download
+                    >
+                        <img id="resume-picture" src={resumeImg} alt="LookAtResume" />
+                    </a>
+                </figure>
+            </div>
+        </div>
+    </div>
+);
+export default Resume;
