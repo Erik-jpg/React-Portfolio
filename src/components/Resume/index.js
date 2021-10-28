@@ -1,26 +1,14 @@
 // The Resume section must have a downloadable resume and a list of developer's proficiencies.
-import React, {useState }from "react";
+import React from "react";
 import { Document } from "react-pdf";
+import resumePdf from './Resume(PDF).pdf';
+import resumeImg from './Screenshot(50.png)';
 
-export default function AllPages(props) {
-    const [numPages, setNumPages] = useState(null);
+<figure>
+    <a href={resumePdf}
+    download><img src={resumeImg} alt= 'ThisIsResume' /></a>
+</figure>
 
-    function onDocumentLoadSuccess({ numPages }) {
-        setNumPages(numPages);
-    }
+        // <Document file="https://drive.google.com/file/d/1yPLEK35BKnUWy67JRonzp7ZBu5w1YCJK/view?usp=sharing" />
 
-    const { pdf } = props;
-    return (
-        <Document
-        file={pdf}
-        options={{ resumeSrc: "/pdf.Resume.pdf" }}
-        onLoadSuccess={onDocumentLoadSuccess}
-        >
-
-            {Array.from(new Array(numPages), (el, index) => (
-                <page key={'page_${index + 1}'} pageNumber={index + 1} />
-            ))}
-        </Document>
-    );
-
-}
+export default Document;
