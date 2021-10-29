@@ -3,7 +3,7 @@
 import React from 'react';
 import { useForm, ValidationError } from '@formspree/react';
 
-function ContactForm() {
+function Contact() {
   const [state, handleSubmit] = useForm("myylarna");
   return (
       <form onSubmit={handleSubmit}>
@@ -35,15 +35,8 @@ function ContactForm() {
     </form>
   );
 }
-function App() {
-  return (
-    <ContactForm />
-  );
-}
 
-
-App();
-export default ContactForm;
+export default Contact;
 
 
 

@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import MyNavbar from '../Navbar/Navbar';
 import Bio from '../Bio/index';
 import Projects from '../Projects/index';
-import ContactForm from '../Contact';
+import Contact from '../Contact/Contact';
 import Resume from '../Resume/index';
 
 
@@ -15,8 +15,8 @@ const compilePage = () => {
         else if (page === "Projects") {
             return <Projects />
     }
-        else if (page === "ContactForm") {
-            return <ContactForm />
+        else if (page === "Contact") {
+            return <Contact />
     }
     else if (page === "Resume") {
         return <Resume />
