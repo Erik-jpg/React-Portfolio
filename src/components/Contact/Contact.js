@@ -5,9 +5,6 @@ import { useForm, ValidationError } from '@formspree/react';
 
 function ContactForm() {
   const [state, handleSubmit] = useForm("myylarna");
-  if (state.succeeded) {
-      return <p>Thanks for joining!</p>;
-  }
   return (
       <form onSubmit={handleSubmit}>
       <label htmlFor="email">
@@ -45,7 +42,7 @@ function App() {
 }
 
 
-
+App();
 export default App;
 
 

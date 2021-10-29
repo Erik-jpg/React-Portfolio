@@ -1,4 +1,5 @@
-
+import React from 'react';
+import '../../../src/stylesheet.css';
 
 
 function Footer() {

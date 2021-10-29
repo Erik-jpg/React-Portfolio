@@ -4,7 +4,7 @@ import Bio from '../Bio/index';
 import Projects from '../Projects/index';
 import App from '../Contact/Contact';
 import Resume from '../Resume/index';
-import Footer from '../Footer/index';
+
 
 function Header(){
 let [page, setPage] = useState('Bio');
@@ -38,3 +38,5 @@ return (
 
 
 export default Header;
+
+
