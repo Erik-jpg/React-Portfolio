@@ -4,11 +4,11 @@ import React from "react";
 function Bio() {
   return (
     <>
-      <img src='https://i.ibb.co/GWPPR8t/23668509-841127372723775-9055571650329706496-n.jpg' alt="MyFace2" />
+      <img className="ProfilePhoto" src='https://i.ibb.co/GWPPR8t/23668509-841127372723775-9055571650329706496-n.jpg' alt="MyFace2" />
       
-      <img src='https://clustrmaps.com/persons/i/Erik-Stone.jpg' alt="MyFace2" />
+      
 
-      <div className="Bio-Illumination">
+      <div style={{height: 16 }}className="Bio-Illumination">
         <p>
           This is my Bio, About me and photo of me... area. It's hard for me to
           sum myself up in a direct way. The reason it is so difficult is

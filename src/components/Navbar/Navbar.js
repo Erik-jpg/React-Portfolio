@@ -19,6 +19,7 @@ function MyNavbar({ page, setPage }) {
         <Button id="Resume" onClick={() => setPage("Resume")}>
           Resume
         </Button>
+        
       </div>
     </>
   );
