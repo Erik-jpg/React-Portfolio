@@ -5,7 +5,7 @@ import Button from 'react-bootstrap/Button';
 function MyNavbar({ page, setPage }) {
   return (
     <>
-      <div className="">
+      <div className="NavbarDisplay">
         <h1>Welcome to my React Portfolio!</h1>
         <Button id="BioBtn" onClick={() => setPage("Bio")}>
           Bio

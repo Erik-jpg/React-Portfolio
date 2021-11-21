@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-import MyNavbar from '../Navbar/Navbar';
+import MyNavbar from '../Navbar';
 import Bio from '../Bio/index';
 import Projects from '../Projects/index';
-import Contact from '../Contact/Contact';
+import Contact from '../Contact';
 import Resume from '../Resume/index';
 
 
