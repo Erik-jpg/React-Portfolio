@@ -25,9 +25,12 @@ const compilePage = () => {
 };
 return (
     <>
-    <header>
-        <h1>Erik Stone</h1>
+    <header className="headerCaption">
+        <br />
+        <h1>Erik Stone</h1> 
+        <br />
         <h2>Full Stack Web Developer</h2>
+        <br />
         <MyNavbar page={page} setPage={setPage} />
     </header>
     {compilePage()}

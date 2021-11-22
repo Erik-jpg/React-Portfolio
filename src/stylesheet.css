@@ -28,12 +28,12 @@ body{
     right: 0;
 }
 
-.Header{
-    box-sizing: boarder-box;
+.headerCaption{
+
     width: 100%;
-    display: flex;
+    /* display: flex; */
     justify-content: center;
-    align-items: baseline;
+    /* align-items: baseline; */
     padding: 1em;
     margin-bottom: 2em;
     color: blanchedalmond;
