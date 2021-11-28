@@ -1,5 +1,5 @@
 import React from "react";
-import Resizer from "react-image-file-resizer";
+
 
 
 

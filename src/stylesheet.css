@@ -4,7 +4,6 @@ body{
 
 #logo {
     background-image: url('https://clustrmaps.com/persons/i/Erik-Stone.jpg')
-    /* This returns an [object Object] */
 }
 
 .footerParent{
@@ -26,6 +25,7 @@ body{
     left: 0;
     bottom: 0;
     right: 0;
+    color:dimgrey;
 }
 
 .headerCaption{
