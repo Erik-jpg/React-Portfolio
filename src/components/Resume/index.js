@@ -1,14 +1,11 @@
 import React from 'react';
+import { Document } from 'react-pdf';
 import resumePdf from './Resume.pdf';
 import resumeImg from './ResumePicture.png';
 
-const Resume = (props) => (
-    <div className="box" style={{ background: 'black' }}>
-        <div className="columns">
-            <div className="column" style={{display: flex, justifyContent: 'center'}}>
-<figure> <a href={resumePdf} download><img id="ResumePicture" src={resumeImg} alt="ResumeSample" />
-</a></figure>
-        </div>
-        </div>
-        </div>
-);
+<figure>
+    <a href={resumePdf}
+        download><img src={resumeImg} alt='Png of resume' /></a>
+</figure>
+
+export default Document;
