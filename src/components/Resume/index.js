@@ -1,7 +1,7 @@
 import React from 'react';
 
-import resumePdf from './Resume.pdf';
-import resumeImg from './ResumePicture.png';
+import resumePdf from '../static/media/Resume.3a7f71f1.pdf';
+import resumeImg from '../static/media/ResumePicture.662d3985.png';
 
 const Resume = (props) => (
     <div className="box" style={{ background: 'black' }}>
