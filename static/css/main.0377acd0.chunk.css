@@ -1,2 +1,20 @@
-#logo{background-image:url(https://clustrmaps.com/persons/i/Erik-Stone.jpg)}.Footer{background-color:#6b8e23;height:25px}.Footer,.Header{box-sizing:boarder-box;width:100%;justify-content:center;align-items:baseline;padding:1em;margin-bottom:2em}.Header{display:flex;background-color:#006400}.Navbar{background-color:#000;height:35px}
+#logo{
+    background-image:url(https://clustrmaps.com/persons/i/Erik-Stone.jpg)
+}
+
+.Footer{
+    background-color:#6b8e23;height:25px
+}
+
+.Footer,.Header{
+    box-sizing:boarder-box;width:100%;justify-content:center;align-items:baseline;padding:1em;margin-bottom:2em
+}
+
+.Header{
+    display:flex;background-color:#006400
+}
+
+.Navbar{
+    background-color:#000;height:35px
+}
 /*# sourceMappingURL=main.0377acd0.chunk.css.map */
