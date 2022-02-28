@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/erik-stone-react-portfolio/static/css/main.0377acd0.chunk.css",
+    "main.js": "/erik-stone-react-portfolio/static/js/main.b6ef56a8.chunk.js",
+    "main.js.map": "/erik-stone-react-portfolio/static/js/main.b6ef56a8.chunk.js.map",
+    "runtime-main.js": "/erik-stone-react-portfolio/static/js/runtime-main.bf1adee3.js",
+    "runtime-main.js.map": "/erik-stone-react-portfolio/static/js/runtime-main.bf1adee3.js.map",
+    "static/js/2.e138eedb.chunk.js": "/erik-stone-react-portfolio/static/js/2.e138eedb.chunk.js",
+    "static/js/2.e138eedb.chunk.js.map": "/erik-stone-react-portfolio/static/js/2.e138eedb.chunk.js.map",
+    "index.html": "/erik-stone-react-portfolio/index.html",
+    "static/css/main.0377acd0.chunk.css.map": "/erik-stone-react-portfolio/static/css/main.0377acd0.chunk.css.map",
+    "static/js/2.e138eedb.chunk.js.LICENSE.txt": "/erik-stone-react-portfolio/static/js/2.e138eedb.chunk.js.LICENSE.txt",
+    "static/media/KlettersteigLanding.2c7b1251.bin": "/erik-stone-react-portfolio/static/media/KlettersteigLanding.2c7b1251.bin",
+    "static/media/Resume.3a7f71f1.pdf": "/erik-stone-react-portfolio/static/media/Resume.3a7f71f1.pdf",
+    "static/media/ResumePicture.662d3985.png": "/erik-stone-react-portfolio/static/media/ResumePicture.662d3985.png",
+    "static/media/ScribbleImg.c4458d59.bin": "/erik-stone-react-portfolio/static/media/ScribbleImg.c4458d59.bin",
+    "static/media/weatherImg.b4ca424b.bin": "/erik-stone-react-portfolio/static/media/weatherImg.b4ca424b.bin"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bf1adee3.js",
+    "static/js/2.e138eedb.chunk.js",
+    "static/css/main.0377acd0.chunk.css",
+    "static/js/main.b6ef56a8.chunk.js"
+  ]
+}
