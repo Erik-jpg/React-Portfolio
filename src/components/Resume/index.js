@@ -1,7 +1,6 @@
 // The Resume section must have a downloadable resume and a list of developer's proficiencies.
 import React from "react";
-import ResumePdf from "Erik Stone Resume.docx";
-import resumePdf from './Resume.pdf';
+import ResumePdf from "./Erik_Resume.pdf";
 import resumeImg from './ResumeImage.png';
 
 const Resume = (props) => (
