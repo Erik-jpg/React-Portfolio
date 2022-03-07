@@ -1,20 +1,12 @@
-
 import React from 'react';
-import { Link } from "react-router-dom";
+import ContactForm from './ContactForm';
 
-const ButtonMailto = ({ mailto, label }) => {
+const ContactMe = () => {
     return (
-        <Link
-            to='#'
-                onClick={(e) =>{
-                        window.location = mailto;
-                            e.preventDefault();
-                }}
-                >
-                    {label}
-                </Link>
+        <div className="contact">
+        <ContactForm />    
+        </div>
     );
-};
+}
 
-
-export default ButtonMailto;
+export default ContactMe;
