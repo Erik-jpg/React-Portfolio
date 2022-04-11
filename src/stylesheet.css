@@ -30,17 +30,10 @@ body{
     display: flex;
 }
 
-/* .emailLink {
-    margin: 5px;
+#contact-info {
+    /* background-color: blanchedalmond; */
+    color: white;
 }
-
-.githubLink {
-    margin: 5px;
-}
-
-.linkedLink {
-    margin: 5px;
-} */
 
 .headerCaption{
     width: 100%;
