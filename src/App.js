@@ -8,9 +8,9 @@ import './stylesheet.css';
 function App() {
 return (
   <div>
-    {/* <Header /> */}
+    <Header />
     <ParticlesBackground />
-    {/* <Footer /> */}
+    <Footer />
   </div>
 );
 }
