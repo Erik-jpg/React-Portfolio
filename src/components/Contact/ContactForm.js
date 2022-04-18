@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 
 
 function ContactForm() {
@@ -18,9 +18,9 @@ function ContactForm() {
           </label>
           <select id="inputInquiry" class="form-select" name="Inquiry-Type">
             <option selected>Select One</option>
-            <option value="1">Digital Art Commission</option>
+            <option value="1">Digital Consultation</option>
             <option value="2">Web Development Commission</option>
-            <option value="3">Web and Art Commission</option>
+            <option value="3">Freelance Story Commission</option>
             <option value="4">Job Recruitment</option>
             <option value="5">Other</option>
           </select>
