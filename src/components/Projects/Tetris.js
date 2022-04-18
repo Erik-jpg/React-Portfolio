@@ -7,29 +7,27 @@ const Tetris = () => (
         <div className="card">
             <div className="columns">
                 <figure className="image">
-                    <img className="TetrisScreen" 
+                    <img className="TetrisImg" 
                     src={TetrisImg} alt="Tetris"
-                    href="https://arcade-lite.herokuapp.com/"
                     />
                     </figure>
+                    <div>
                 <p>
                     <strong>Arcade-Lite</strong>
-                    <p>Deployed site.</p>
+                    Deployed site.
                     <a className="Arcade-lite-link" href="https://arcade-lite.herokuapp.com">
                     </a>
 
-                Github Link</p>
+                    Github Link
                     <a className="Github-Arcade-lite-link" href="https://github.com/Windowmac/arcade-lite">
                     </a>
-
-                <p>
                     This is a team built application. This React app is designed to play Tetris. It uses Context API to change state, set timers, check piece movement, 
-                    and update with the new state.</p> 
+                    and update with the new state. 
                 
-                <p>
                     <strong>Technologies used:</strong>
                     GraphQL, React, Apollo Server/Client, Mongoose, Context API
                     </p>
+            </div>
         </div>
     </div>
 </div>

@@ -11,7 +11,7 @@ style={{ margin: '2px', padding: '2px' }}>
         <div className="columns">
             <div className="columns">
                 <figure className="image">
-                    <img className="weatherPic" src="https://res.cloudinary.com/practicaldev/image/fetch/s--l54uzoh6--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/i/szfxwsiolnt9w7gdbxek.png" alt="weatherApp" />
+                    <img className="weatherImg" src="https://res.cloudinary.com/practicaldev/image/fetch/s--l54uzoh6--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/i/szfxwsiolnt9w7gdbxek.png" alt="weatherApp" />
 
                 </figure>
             </div>
