@@ -9,7 +9,7 @@ function ContactForm() {
       <form
         class="row g-3"
         id="test-form"
-        action="https://formspree.io/f/xoqyldrv"
+        action="https://formspree.io/f/xwkyryao"
         method="POST"
       >
         <div class="col-md-12">

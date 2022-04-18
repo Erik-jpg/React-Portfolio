@@ -1,4 +1,5 @@
 import React from 'react';
+import Tetris from "./Tetris";
 import Klettersteig from "./Klettersteig";
 import NoteTaker from "./NoteTaker";
 import Weather from "./Weather";
@@ -11,6 +12,9 @@ const PastProjects = () => {
         Github link and you can view the code from there.
       </h3>
       <br />
+      <div id="Tetris">
+        <Tetris />
+      </div>
       <div id="project-Klettersteig">
         <Klettersteig />
       </div>
